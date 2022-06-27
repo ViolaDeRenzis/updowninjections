@@ -6,12 +6,12 @@ Data release supporting
 
 ## Credits
 
-You are welcome to use this database in your research. We kindly ask you to cite our above mentioned paper. In order to cite the database specifically, the DOI code is:
+You are welcome to use this database in your research. We kindly ask you to cite the paper above. In order to cite the database specifically, the DOI code is:
 
 
 ## Database
 
-Here we provide our data to reproduce _Fig.2_, _Fig.4_, _Fig.5_, _Fig.6_ and _Fig.7_ of the paper.
+Here we provide the data to reproduce _Fig.2_, _Fig.4_, _Fig.5_, _Fig.6_ and _Fig.7_ of the paper.
 The database's size is ~30GB, and needs to be downloaded in chunks from the GitHub release page (https://github.com/ViolaDeRenzis/twoprecessingspins/releases). 
 
 The database contains two types of files, described by the two suffix _result.json_ and _chipav.dat_. 
