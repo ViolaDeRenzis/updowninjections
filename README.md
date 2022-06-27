@@ -25,7 +25,7 @@ The 100 injections in _Fig.4_ and _Fig.5_ can be reproduced using the files with
 
 In _Fig.6_ , the red posteriors correspond to the injections **uni_25** and **uni_98** performed with the standard LIGO priors. The green posteriors are performed using volumetric priors and can be reproduced using the files with prefix **prior_#number_vol** (where #number=[25,98]). The yellow posteriors are done increasing the SNR value with the standard LIGO priors and can be reproduced through the files with prefix **prior_#number_SNR_#SNRvalue**. Here **#SNRvalue** is 98 for the injection number 25 and 70 for the injection number 98.
 
-Finally _Fig.7_ is done using the injections number 21 and 81. The posteriors obtained injecting and recovering with _IMRPhenomXPHM_ are the ones with prefix **uni_#number**. The other posteriors obtained with different combination of _IMRPhenomXPHM_,_IMRPhenomTPHM_ and _NRSur7dq4_ (shortened respectively as XP, TP and NR) can be reproduced using the files with prefix **syst_#number_#injection_#recovery**. Here #number can be 21 or 81, #injection and #recovery can be XP,TP or NR and represent the name of the injecting and recovery waveforms.
+In _Fig.7_ , the posteriors obtained injecting and recovering with _IMRPhenomXPHM_ are the ones with prefix **uni_#number**, where #number=[21,81]. The other posteriors obtained with different combination of _IMRPhenomXPHM_,_IMRPhenomTPHM_ and _NRSur7dq4_ (shortened respectively as XP, TP and NR) can be reproduced using the files with prefix **syst_#number_#injection_#recovery**. Here #number can be 21 or 81, #injection and #recovery can be XP, TP or NR and represent, respectively, the name of the injecting and recovery waveforms.
 
 
 
