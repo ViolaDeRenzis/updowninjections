@@ -21,9 +21,11 @@ The database contains two types of files, described by the two suffix _result.js
 
 In order to reproduce _Fig.2_ of the paper you'll need to use the files with prefixes **DL_0200,DL_0500,DL_0700,DL_0900,DL_01300,DL_01700**. Here DL stands for luminosity distance.
 
-The 100 injections in _Fig.4_, _Fig.5_ can be reproduced using the files with prefix **uni_#number**. This prefix stands for 'uniform' because we choose the samples for each of the 100 simulation, reweighting the $\chi_{p}$ prior toward a uniform distribution between [0,2]. The injection and recovery for these 100 simulations are done with the _IMRPhenomXPHM_ waveform. The numbers from 00 to 99 indicate the simulation number in ascendig order of the $\chi_{p}$ magnitude.
+The 100 injections in _Fig.4_ and _Fig.5_ can be reproduced using the files with prefix **uni_#number**. Here #number can be a value from 00 to 99 that indicate the injection number in ascendig order of $\chi_{p}$ magnitude. This prefix stands for 'uniform' because we chose the samples for each of the 100 simulation, reweighting the $\chi_{p}$ prior toward a uniform distribution between [0,2]. The injection and recovery for these 100 simulations are done with the _IMRPhenomXPHM_ waveform, using the standard uninformative priors. 
 
 In _Fig.6_ , the red posteriors in the left and right panels correspond, respectively, to the injections **uni_25** and **uni_98** performed with the standard LIGO priors. The green posteriors are performed using volumetric priors and can be reproduced using the files with prefix **prior_#number_vol**. The yellow posteriors are done increasing the SNR value with the standard LIGO priors and can be reproduced through the files with prefix **prior_#number_SNR_#snr value**.
+
+Finally _Fig.7_ is done with using the injections number 21 and 81. The posteriors obtained injecting and recovering with _IMRPhenomXPHM_ are the ones with prefix **uni_#number_**. The other posteriors performed with different combination of _IMRPhenomXPHM_,_IMRPhenomTPHM_ and _NRSur7dq4_ (shortened respectively as XP, TP and NR) can be reproduced using the files with prefix **syst_#number_#injection_#recovery**. Here #number can be 21 or 81, #injection and #recovery can be XP,TP or NR and represent the name of the injecting and recovery waveforms.
 
 
 
