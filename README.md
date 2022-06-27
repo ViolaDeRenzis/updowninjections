@@ -17,6 +17,8 @@ The database's size is ~30GB, and needs to be downloaded in chunks from the GitH
 The database contains two types of files. 
 
 1) The _.json_ files are the BILBY outputs (see https://lscsoft.docs.ligo.org/bilby/bilby-output.html to discover their content and how to read them). Every _.json_ file is a nested set of dictionaries that contains all the information for each simulation (injected values, waveform arguments, priors, posteriors, log evidence ecc...). In particular you can find here the posterior samples for each of the 15 injected parameters.
-2) The _.dat_ files are the posterior samples for the *averaged* definition of $\chi_{p}$
+2) The _.dat_ files are the posterior samples for the **averaged** definition of the precessing spin parameter $\chi_{p}$. The samples for the  **heuristic** definition of $\chi_{p}$, instead, are contained in the _.json_ files.
+
+
 
 
