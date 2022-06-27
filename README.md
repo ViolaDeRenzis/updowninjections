@@ -14,16 +14,16 @@ You are welcome to use this database in your research. We kindly ask you to cite
 Here we provide our data to reproduce _Fig.2_, _Fig.4_, _Fig.5_, _Fig.6_ and _Fig.7_ of the paper.
 The database's size is ~30GB, and needs to be downloaded in chunks from the GitHub release page (https://github.com/ViolaDeRenzis/twoprecessingspins/releases). 
 
-The database contains two types of files. 
+The database contains two types of files, described by the two suffix _result.json_ and _chipav.dat_. 
 
 1) The _result.json_ files are the BILBY outputs (see https://lscsoft.docs.ligo.org/bilby/bilby-output.html to discover their content and how to read them). Every _.json_ file is a nested set of dictionaries that contains all the information for each simulation (injected values, waveform arguments, priors, posteriors, log evidence ecc...). In particular you can find here the posterior samples for each of the 15 injected parameters.
-2) The _chipav.dat_ files are the posterior samples for the **averaged** definition of the precessing spin parameter $\chi_{p}$. The samples for the  **heuristic** definition of $\chi_{p}$, instead, are contained in the _.json_ files.
+2) The _chipav.dat_ files are the posterior samples for the **averaged** definition of the precessing spin parameter $\chi_{p}$. The samples for the  **heuristic** definition of $\chi_{p}$, instead, are contained in the _result.json_ files.
 
 In order to reproduce _Fig.2_ of the paper you'll need to use the files with prefixes **DL_0200,DL_0500,DL_0700,DL_0900,DL_01300,DL_01700**. Here DL stands for luminosity distance.
 
-The 100 injections in _Fig.4_, _Fig.5_ can be reproduced using the files with prefix **uni**. This prefix stands for 'uniform' because we choose the samples for each of the 100 simulation, reweighting the $\chi_{p}$ prior toward a uniform distribution between [0,2].
+The 100 injections in _Fig.4_, _Fig.5_ can be reproduced using the files with prefix **uni_#number**. This prefix stands for 'uniform' because we choose the samples for each of the 100 simulation, reweighting the $\chi_{p}$ prior toward a uniform distribution between [0,2]. The injection and recovery for these 100 simulations are done with the _IMRPhenomXPHM_ waveform. The numbers from 00 to 99 indicate the simulation number in ascendig order of the $\chi_{p}$ magnitude.
 
-The red posterior in _Fig.6_ 
+In _Fig.6_ , the red posteriors in the left and right panels correspond, respectively, to the injections **uni_25** and **uni_98** performed with the standard LIGO priors. The green posteriors are performed using volumetric priors and can be reproduced using the files with prefix **prior_#number_vol**. The yellow posteriors are done increasing the SNR value with the standard LIGO priors and can be reproduced through the files with prefix **prior_#number_SNR_#snr value**.
 
 
 
