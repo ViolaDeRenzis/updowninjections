@@ -12,3 +12,6 @@ You are welcome to use this database in your research. We kindly ask you to cite
 ## Database
 
 Here we provide our database to reproduce _Fig.2_, _Fig.4_, _Fig.5_, _Fig.6_ and _Fig.7_ of the paper.
+The database's size is ~30GB, and needs to be downloaded in chunks from the GitHub release page. 
+
+
