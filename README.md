@@ -16,7 +16,7 @@ The database's size is ~30GB, and needs to be downloaded in chunks from the GitH
 
 The database contains two types of files, described by the two suffix _result.json_ and _chipav.dat_. 
 
-1) The _result.json_ files are the BILBY outputs (see https://lscsoft.docs.ligo.org/bilby/bilby-output.html to discover their content and how to read them). Every _.json_ file is a nested set of dictionaries that contains all the information for each simulation (injected values, waveform arguments, priors, posteriors, log evidence ecc...). In particular you can find here the posterior samples for each of the 15 injected parameters.
+1) The _result.json_ files are the BILBY outputs (see https://lscsoft.docs.ligo.org/bilby/bilby-output.html to discover their content and how to read them). Every _result.json_ file is a nested set of dictionaries that contains all the information for each simulation (injected values, waveform arguments, priors, posteriors, log evidence ecc...). In particular you can find here the posterior samples for each of the 15 injected parameters.
 2) The _chipav.dat_ files are the posterior samples for the **averaged** definition of the precessing spin parameter $\chi_{p}$. The samples for the  **heuristic** definition of $\chi_{p}$, instead, are contained in the _result.json_ files.
 
 In order to reproduce _Fig.2_ of the paper you'll need to use the files with prefixes **DL_0200,DL_0500,DL_0700,DL_0900,DL_01300,DL_01700**. Here DL stands for luminosity distance.
