@@ -24,7 +24,7 @@ The data provided refer to the results of the paper as follows:
 
 - Data to reproduce Fig. 2 and Fig. 3 of the paper are listed as `DL_XXXX` where `DL` stands for *luminosity distance* and `XXXX` refers to the value in Mpc.
 
-- The 100 injections used in Fig. 4 and Fig. 5 are listed as `uni_XX` where `XX` ranges from 00 to 99. Injections are sorted in in ascendig order of $\chi_{p}$. The prefix **uni** stands for *uniform* because of our targeted $\chi_{p}$ distribution. For all these runs, injection and recovery are done with the *IMRPhenomXPHM* waveform models using the standard uninformative priors (see the paper).
+- The 100 injections used in Fig. 4 and Fig. 5 are listed as `uni_XX` where `XX` ranges from 00 to 99. Injections are sorted in in ascendig order of $\chi_{p}$. The prefix `uni` stands for *uniform* because of our targeted $\chi_{p}$ distribution. For all these runs, injection and recovery are done with the *IMRPhenomXPHM* waveform models using the standard uninformative priors (see the paper).
 
 - In Fig.6, the red posteriors correspond to the injections labeled `uni_XX` from above with `XX`=[25,98]. The green posteriors are performed using volumetric priors and can be reproduced using files starting with `prior_XX`. The yellow posteriors are done at higher SNR value and are provided as `prior_XX_SNR_YY`. 
 
