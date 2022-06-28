@@ -18,6 +18,8 @@ We provide to data products, named `*_result.json` and `*_chipav.dat`.
 - The `result.json` files are the raw BILBY outputs (see [https://lscsoft.docs.ligo.org/bilby/bilby-output.html](lscsoft.docs.ligo.org/bilby/bilby-output) for instructions). Each of these files contains a nested set of dictionaries with all the information of the injection (true values, waveform arguments, priors, posteriors, log evidence etc...). 
 - The `chipav.dat` files contain the posterior samples of the averaged $\chi_{p}$ estimators. The samples for the  **heuristic** definition of $\chi_{p}$  are provided by default and can be found in `result.json`.
 
+## Readme
+
 The data provided refer to the results of the paper as follows:
 
 - Data to reproduce Fig. 2 and Fig. 3 of the paper are listed as `DL_XXXX` where `DL` stands for *luminosity distance* and `XXXX` refers to the value in Mpc.
