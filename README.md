@@ -10,7 +10,9 @@ You are welcome to use this dataset in your research. We kindly ask you to cite 
 
 ## Data
 
-Data need to be downloaded from the [GitHub release page](https://github.com/ViolaDeRenzis/twoprecessingspins/releases). The total size is ~35GB,
+Data need to be downloaded from the [GitHub release page](https://github.com/ViolaDeRenzis/twoprecessingspins/releases). The total size is ~35GB. To download the entire dataser use `download_all.py`.
+
+
 
 We provide to data products, named `*_result.json` and `*_chipav.dat`. 
 
