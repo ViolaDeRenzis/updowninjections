@@ -14,7 +14,7 @@ Data need to be downloaded from the [GitHub release page](https://github.com/Vio
 
 
 
-We provide to data products, named `*_result.json` and `*_chipav.dat`. 
+We provide two types of data products, named `*_result.json` and `*_chipav.dat`. 
 
 - The `result.json` files are the raw bilby outputs, see [here](https://lscsoft.docs.ligo.org/bilby/bilby-output.html) for instructions. Each of these files contains a nested set of dictionaries with all the information of the injection (true values, waveform arguments, priors, posteriors, log evidence etc...). 
 - The `chipav.dat` files contain the posterior samples of the averaged .$\chi_p$ estimator. Samples for the  heuristic definition of $\chi_{p}$  are provided by default and can be found in `result.json`.
