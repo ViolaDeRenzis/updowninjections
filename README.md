@@ -6,7 +6,7 @@ Data release supporting:
 
 ## Credits
 
-You are welcome to use this dataset in your research. We kindly ask you to cite the paper above. If you want to cite this data release specifically, the DOI code is:
+You are welcome to use this dataset in your research. We kindly ask you to cite the paper above. If you want to cite this data release specifically, the DOI code is: https://doi.org/10.5281/zenodo.6777952.
 
 ## Data
 
