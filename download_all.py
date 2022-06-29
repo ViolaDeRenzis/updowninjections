@@ -1,5 +1,4 @@
 import urllib.request
-import numpy as np
 import json
 
 repo="ViolaDeRenzis/twoprecessingspins"
