@@ -2,7 +2,7 @@
 
 Data release supporting:
 
-- _Characterization of merging black holes with two precessing spins_. Viola De Renzis, Davide Gerosa, Geraint Pratten, Patricia Schmidt, Matthew Mould.
+- _Characterization of merging black holes with two precessing spins_. Viola De Renzis, Davide Gerosa, Geraint Pratten, Patricia Schmidt, Matthew Mould. [arXiv:2207.00030](https://arxiv.org/abs/2207.00030).
 
 ## Credits
 
@@ -11,7 +11,7 @@ You are welcome to use this dataset in your research. We kindly ask you to cite 
 
 ## Data
 
-Data need to be downloaded from the [GitHub release page](https://github.com/ViolaDeRenzis/twoprecessingspins/releases). The total size is ~35GB. To download the entire dataset use our `download_all.py` script.
+Data need to be downloaded from the [github release page](https://github.com/ViolaDeRenzis/twoprecessingspins/releases). The total size is ~35GB. To download the entire dataset use our `download_all.py` script.
 
 
 
