@@ -2,7 +2,7 @@
 
 Data release supporting:
 
-- _Characterization of merging black holes with two precessing spins_. Viola De Renzis, Davide Gerosa, Geraint Pratten, Patricia Schmidt, Matthew Mould. [arXiv:2207.00030](https://arxiv.org/abs/2207.00030).
+- _Characterization of merging black holes with two precessing spins_. Viola De Renzis, Davide Gerosa, Geraint Pratten, Patricia Schmidt, Matthew Mould. Physical Review D 106 (2022) 084040. [arXiv:2207.00030](https://arxiv.org/abs/2207.00030).
 
 ## Credits
 
