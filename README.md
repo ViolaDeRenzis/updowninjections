@@ -1,8 +1,8 @@
-# twoprecessingspins
+# updowninjections
 
 Data release supporting:
 
-- _Characterization of merging black holes with two precessing spins_. Viola De Renzis, Davide Gerosa, Geraint Pratten, Patricia Schmidt, Matthew Mould. Physical Review D 106 (2022) 084040. [arXiv:2207.00030](https://arxiv.org/abs/2207.00030).
+- _Parameter estimation of binary black holes in the endpoint of the up--down instability_. Viola De Renzis, Davide Gerosa, Matthew Mould, Riccardo Buscicchio, Lorenzo Zanga. [arXiv:2304.13063](https://arxiv.org/abs/2304.13063).
 
 ## Credits
 
@@ -11,7 +11,7 @@ You are welcome to use this dataset in your research. We kindly ask you to cite 
 
 ## Data
 
-Data need to be downloaded from the [github release page](https://github.com/ViolaDeRenzis/twoprecessingspins/releases). The total size is ~35GB. To download the entire dataset use our `download_all.py` script.
+Data need to be downloaded from the [github release page](https://github.com/ViolaDeRenzis/updowninjections/releases). The total size is ~35GB. To download the entire dataset use our `download_all.py` script.
 
 
 
