@@ -23,7 +23,7 @@ We provide two types of data products, named `*.json` and `Backpropagation_*.dat
 
 The data provided refer to the results of the paper as follows:
 
-- Data to reproduce Fig. 2 and Fig. 3 of the paper are listed as `ud_rX_SNR_YYY.json` where `ud` stands for *up-down*,`X` ranges from 1 to 8, referring to the 8 series of injections performed with a certain value of the orbital separation `r` and with an `YYY` value of the SNR. The chosen values of the SNR for the 8 series are $\mathrm{SNR}=150,100,80,60,40,20$. The files that reproduce Fig.2 are `ud_r1_SNR_YYY`, which is also reported in Fig. 3 with the orange scatter points.
+- Data to reproduce Fig. 2 and Fig. 3 of the paper are listed as `ud_rX_SNR_YYY.json` where `ud` stands for *up-down*,`X` ranges from 1 to 8, referring to the 8 series of injections performed with a certain value of the orbital separation `r` and with an `YYY` value of the SNR. The chosen values of the SNR for the 8 series are $\mathrm{SNR}=150,100,80,60,40,20$. The files that reproduce the injection set of Fig.2 and the orange scatter points in Fig.3 are `ud_r1_SNR_YYY`.
 
 - The files to reproduce the posterior distribution at $20$ Hz in Fig. 4 are `ud_r1_SNR_150.json` (left panel) and `ud_r6_SNR_150.json` (right panel). The posterior distribution of the tilt angles $\theta_1$ and $\theta_2$ at $0$ Hz are contained in `Backpropagation_r1_SNR_150.json` (left panel) and `Backpropagation_r6_SNR_150.json` (right panel).
 
