@@ -11,7 +11,7 @@ You are welcome to use this dataset in your research. We kindly ask you to cite 
 
 ## Data
 
-Data need to be downloaded from the [github release page](https://github.com/ViolaDeRenzis/updowninjections/releases). The total size is ~35GB. To download the entire dataset use our `download_all.py` script.
+Data need to be downloaded from the [github release page](https://github.com/ViolaDeRenzis/updowninjections/releases). The total size is ~56GB. To download the entire dataset use our `download_all.py` script.
 
 
 We provide two types of data products, named `*.json` and `Backpropagation_*.dat`
