@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-repo="ViolaDeRenzis/twoprecessingspins"
+repo="ViolaDeRenzis/updowninjections"
 url= "https://api.github.com/repos/"+repo+"/releases/latest"
 
 f= urllib.request.urlopen(url)
