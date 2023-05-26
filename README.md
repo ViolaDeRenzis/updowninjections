@@ -27,7 +27,7 @@ The data provided refer to the results of the paper as follows:
 
 - The files to reproduce the posterior distribution at $20$ Hz in Fig. 4 are `ud_r1_SNR_150.json` (left panel) and `ud_r6_SNR_150.json` (right panel). The posterior distribution of the tilt angles $\theta_1$ and $\theta_2$ at $0$ Hz are contained in `Backpropagation_r1_SNR_150.json` (left panel) and `Backpropagation_r6_SNR_150.json` (right panel).
 
-- The files for the 151 injections used in Fig. 5 of the paper are named as `updown_X.json`, where `X` ranges between 0 and 150. For all these runs, injection and recovery are done with the IMRPhenomXPHM waveform model using the standard uninformative priors (see the paper).
+- The files for the 151 injections used in Fig. 5 of the paper are named as `updown_X.json`, where `X` ranges between 0 and 150. For all these runs, injection and recovery are done with the IMRPhenomXPHM waveform model using the standard uninformative priors (see the paper). The injection performed without higher modes are called `updown_X_noHM.json` where $X=39,61,99,104,113,125,138$. 
 
 
 
