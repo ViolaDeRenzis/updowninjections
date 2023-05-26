@@ -14,8 +14,9 @@ You are welcome to use this dataset in your research. We kindly ask you to cite 
 Data need to be downloaded from the [github release page](https://github.com/ViolaDeRenzis/updowninjections/releases). The total size is ~35GB. To download the entire dataset use our `download_all.py` script.
 
 
-
-We provide data products in `*json` format. The `result.json` files are the raw bilby outputs, see [here](https://lscsoft.docs.ligo.org/bilby/bilby-output.html) for instructions. Each of these files contains a nested set of dictionaries with all the information of the injection (true values, waveform arguments, priors, posteriors, log evidence etc...). 
+We provide two types of data products, named `*json` and `Backpropagation*.dat`
+- The `result.json` files are the raw bilby outputs, see [here](https://lscsoft.docs.ligo.org/bilby/bilby-output.html) for instructions. Each of these files contains a nested set of dictionaries with all the information of the injection (true values, waveform arguments, priors, posteriors, log evidence etc...). 
+- The `Backpropagation.dat` files contain the posterior samples of the tilt angles $\theta_1$ and $\theta_2$ that are numerically evolved from 20 Hz to 0 Hz. The posterior distributions for the tilt angles at 20 Hz are contained in the `result.json` files.
 
 
 ## Readme
@@ -26,7 +27,7 @@ The data provided refer to the results of the paper as follows:
 
 - The
 
-- The files for the 151 injections used in Fig. 5 of the paper are named as `updown_X_0_result.json`, where `X` ranges between 0 and 150. For all these runs, injection and recovery are done with the IMRPhenomXPHM waveform model using the standard uninformative priors (see the paper).
+- The files for the 151 injections used in Fig. 5 of the paper are named as `updown_X.json`, where `X` ranges between 0 and 150. For all these runs, injection and recovery are done with the IMRPhenomXPHM waveform model using the standard uninformative priors (see the paper).
 
 
 
